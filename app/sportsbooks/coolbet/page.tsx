@@ -26,7 +26,7 @@ export default function CoolBetReviewPage() {
       "Valid for 30 days from account opening",
       "Maximum bet of $5 while bonus is active",
     ],
-    bettingMarkets: [
+    markets: [
       "Tournament Winners",
       "Top 5/10 Finishes",
       "Head-to-Head Matchups",
@@ -34,12 +34,18 @@ export default function CoolBetReviewPage() {
       "Hole-in-One Props",
       "Weather-Related Props",
     ],
-    sampleOdds: [
+    oddsExample: [
       { event: "DGPT Championship", player: "Paul McBeth", odds: "+250", market: "Tournament Winner" },
       { event: "DGPT Championship", player: "Ricky Wysocki", odds: "+300", market: "Tournament Winner" },
       { event: "DGPT Championship", player: "Paige Pierce", odds: "+180", market: "FPO Winner" },
       { event: "World Championships", player: "Calvin Heimburg", odds: "+450", market: "Top 5 Finish" },
     ],
+    minDeposit: "$20",
+    region: "Estonia",
+    established: "2009",
+    license: "Estonian Tax and Customs Board",
+    ctaText: "Claim $2,000 Bonus",
+    ctaLink: "https://www.coolbet.com/en/sports/discgolf",
     quickFacts: {
       founded: "2009",
       headquarters: "Estonia",

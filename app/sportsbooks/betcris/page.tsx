@@ -26,7 +26,7 @@ export default function BetcrisReviewPage() {
       "If first bet loses, receive site credit",
       "Site credit must be used within 14 days",
     ],
-    bettingMarkets: [
+    markets: [
       "Tournament Outright Winners",
       "Top 3/5/10 Finishes",
       "Player vs Player Matchups",
@@ -34,20 +34,18 @@ export default function BetcrisReviewPage() {
       "Cut/Miss Cut Betting",
       "Nationality Props",
     ],
-    sampleOdds: [
-      { event: "Worlds Championship", player: "Paul McBeth", odds: "+275", market: "Tournament Winner" },
-      { event: "Worlds Championship", player: "Kristin Tattar", odds: "+220", market: "FPO Winner" },
-      { event: "DGPT Finale", player: "Eagle McMahon", odds: "+400", market: "Tournament Winner" },
-      { event: "European Open", player: "Simon Lizotte", odds: "+350", market: "Top 5 Finish" },
+    oddsExample: [
+      { event: "Worlds Championship", player: "Paul McBeth", odds: "+275" },
+      { event: "Worlds Championship", player: "Kristin Tattar", odds: "+220" },
+      { event: "DGPT Finale", player: "Eagle McMahon", odds: "+400" },
+      { event: "European Open", player: "Simon Lizotte", odds: "+350" },
     ],
-    quickFacts: {
-      founded: "1985",
-      headquarters: "Costa Rica",
-      license: "Costa Rica Gaming License",
-      payoutTime: "24-72 hours",
-      minDeposit: "$20",
-      currencies: "USD, EUR",
-    },
+    minDeposit: "$20",
+    region: "Costa Rica",
+    established: "1985",
+    license: "Costa Rica Gaming License",
+    ctaText: "Claim $1,500 Bonus",
+    ctaLink: "https://www.coolbet.com/en/sports/discgolf",
   }
 
   return <SportsbookReview {...betcrisData} />
